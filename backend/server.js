@@ -10,7 +10,7 @@ const router = require('./routes/postRoutes')
 
 const app=express()
 app.use(cors({
-    origin :"http://localhost:3000" ,
+    origin :"https://postimplementation-rajdeepa.netlify.app/" ,
     credentials : true
 }))
 app.use(express.json())
