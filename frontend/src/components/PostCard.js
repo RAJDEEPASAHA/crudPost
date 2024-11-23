@@ -8,7 +8,7 @@ function PostCard({ post, onDelete }) {
 
     try {
       console.log("Deleting post with ID:", post._id); // Log the ID for debugging
-      const response = await fetch(`http://localhost:5000/api/delete-posts/${post._id}`, {
+      const response = await fetch(`https://crudpost-73j1.onrender.com/api/delete-posts/${post._id}`, {
         method: "DELETE",
       });
 
