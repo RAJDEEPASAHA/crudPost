@@ -45,7 +45,7 @@ function PostDetails() {
       <p className="text-gray-700 mb-6">{post.description}</p>
       {post.image && (
         <img
-          src={`http://localhost:5000/uploads/${post.image}`}
+          src={post.image}
           alt={post.title}
           className="w-full max-w-lg mx-auto rounded-lg shadow-md mb-6"
         />
